@@ -17,6 +17,6 @@ jobs:
         - name: Run test2 py
           run: |
             python3 test2.py
-        - name: Run send mail.py
+        - name: Run send_mail.py
           run: |
-            send mail.py
+            send_mail.py
