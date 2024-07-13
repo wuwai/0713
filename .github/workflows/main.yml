@@ -24,8 +24,8 @@ jobs:
         name: do job2
         runs-on: ubuntu-lastest
         steps:
-        - uses: actions/check@v2
-        - name: Run tes 2 py
+        - uses: actions/checkout@v2
+        - name: Run test 2 py
           run: |
             python3 test2.py
 
